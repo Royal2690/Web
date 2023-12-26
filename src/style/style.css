@@ -1,0 +1,437 @@
+.App {
+    text-align: center;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;600;700;900&display=swap");
+  
+  /*Header*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  header {
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: #c4c4c4;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  nav ul li:hover {
+    color: #058b8c;
+    cursor: pointer;
+  }
+  
+  .Header_Btn {
+    border-radius: 48px;
+    background: #058b8c;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2),
+      3px 4px 10px 0px rgba(0, 0, 0, 0.2) inset;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .Header_Btn:hover {
+    color: white;
+  }
+  
+  /* Banner */
+  
+  .Page-width {
+    max-width: 1250;
+    margin: auto;
+    padding: 0px 60px;
+  }
+  
+  .Banner_Section {
+    padding: 60px 0px;
+    background: url("./bg_banner.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+  
+  .Banner_Inner_Section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  
+  .Banner_Inner_Section .Banner_img {
+    padding: 30px;
+  }
+  
+  .Banner_Inner_Section .Banner_img img {
+    border-radius: 50%;
+  }
+  
+  .Banner_Inner_Section .Banner_Content {
+    padding-top: 150px;
+  }
+  .Banner_Inner_Section .Banner_Content small {
+    border-radius: 20px;
+    background: #058b8c;
+    color: #fff;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px;
+    padding: 8px;
+  }
+  
+  .Banner_Inner_Section .Banner_Content .Intro {
+    margin-top: 10px;
+    color: #1e1e1e;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+  }
+  
+  .Banner_Inner_Section .Banner_Content h2 {
+    color: #1e1e1e;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3.8px;
+  }
+  
+  .Banner_Inner_Section .Banner_Content h2 span {
+    color: #058b8c;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3.8px;
+  }
+  
+  .Banner_Inner_Section .Banner_Content .Descrition {
+    color: #1e1e1e;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  
+  .Banner_Button .Button1 {
+    border-radius: 48px;
+    background: #8d0f11;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2),
+      3px 4px 10px 0px rgba(0, 0, 0, 0.2) inset;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
+  }
+  
+  .Banner_Button .Button2 {
+    border-radius: 48px;
+    color: black;
+    border: 2px solid #1e1e1e;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: transparent;
+  }
+  /* Banner3 */
+  
+  .Page-width3 {
+    max-width: 1250;
+    margin: auto;
+    padding: 0px 50px;
+  }
+  
+  .Banner_Section3 {
+    background: url("./bg_banner_right.svg");
+    background-repeat: no-repeat;
+  }
+  .Banner_Inner_Section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+  }
+  
+  .Banner_Inner_Section3 .Banner_img3 {
+    padding: 20px;
+  }
+  
+  .Banner_Inner_Section3 .Banner_img3 img {
+    border-radius: 50%;
+  }
+  
+  .Banner_Content3 h2 {
+    color: #1e1e1e;
+    font-family: Rubik;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    padding-top: 75px;
+  }
+  .Banner_Content3 h2 span {
+    color: #058b8c;
+    font-family: Rubik;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+  }
+  
+  .Banner_Content3 .Descrition3 {
+    color: #1e1e1e;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 65px;
+  }
+  
+  .Banner_Content3 .Paragraph3 {
+    color: #1e1e1e;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 30px;
+  }
+  
+  /*Banner4*/
+  
+  .Page-width4 {
+    max-width: 1300;
+    margin: auto;
+    padding: 0px 100px;
+    background: #058b8c;
+  }
+  
+  .Banner_Section4 {
+    background: url("./bg_banner_right.svg");
+    background-repeat: no-repeat;
+    border-radius: 471px;
+    background: #c4c4c4;
+    background-position: right;
+  }
+  .Banner_Inner_Section4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+  
+  .Banner_Inner_Section4 .Banner_Content4 {
+    text-align: justify;
+  }
+  
+  .Banner_Inner_Section4 .Banner_Content4 h3 {
+    text-align: center;
+    color: #fff;
+    font-family: Rubik;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    padding-top: 140px;
+  }
+  
+  .Banner_Inner_Section4 .Banner_Content4 p {
+    text-align: justify;
+    color: #fff;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 20px;
+  }
+  
+  .Banner_Inner_Section4 .Paragraph4 {
+    text-align: justify;
+    color: #fff;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 20px;
+  }
+  
+  .Banner_Inner_Section4 .Banner_img4 {
+    background: url("./bg_banner_right.svg");
+    border-radius: 471px;
+    opacity: 0.1;
+    background: #c4c4c4;
+  }
+  .Banner_Inner_Section4 .Banner_img4 img {
+    border-radius: 50%;
+  }
+  /*Banner6*/
+  
+  .Banner6 {
+    width: 1350px;
+    height: 200px;
+    background: #058b8c;
+    padding-top: 40px;
+  }
+  
+  .Banner6 .Intro6 {
+    color: #fff;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    padding-left: 40px;
+  }
+  
+  .Banner6 .Contact6 {
+    color: #fff;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.26px;
+    padding-top: 20px;
+  }
+  
+  /* footer */
+  
+  footer {
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .coloumn_zero {
+    color: #8f8f8f;
+    font-family: Rubik;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  .coloumn_one ul li {
+    color: #8f8f8f;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    list-style: none;
+    padding-left: 100px;
+    margin: 15px;
+  }
+  
+  .coloumn_two ul li {
+    color: #8f8f8f;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    list-style: none;
+    padding-left: 30px;
+    margin: 16px;
+  }
+  
+  .coloumn_three ul li {
+    list-style: none;
+    color: #8f8f8f;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 12px 0px;
+  }
+  
+  .news_letter {
+    display: flex;
+    padding: 15px 0px;
+  }
+  
+  .news_letter input {
+    width: 75%;
+    border-radius: 341px;
+    border: 2px solid #058b8c;
+    height: 48px;
+    padding-left: 15px;
+  }
+  
+  .news_letter button {
+    width: 23%;
+    margin-left: 1rem;
+    border-radius: 48px;
+    background: #058b8c;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2),
+      3px 4px 10px 0px rgba(0, 0, 0, 0.2) inset;
+    color: #fff;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    border: none;
+  }
+  
+  .Copyrights p {
+    max-width: 100%;
+    text-align: center;
+    color: #8f8f8f;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    padding-top: 15px;
+  }
+  
+  hr {
+    max-width: 90%;
+    margin: auto;
+    size: 5px;
+  }
+  
+  
