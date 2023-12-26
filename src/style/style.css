@@ -59,7 +59,7 @@
   
   .Banner_Section {
     padding: 60px 0px;
-    background: url("./bg_banner.svg");
+    background: url("../assests/images/home/banner/banner.svg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -174,7 +174,7 @@
   }
   
   .Banner_Section3 {
-    background: url("./bg_banner_right.svg");
+    background: url("../assests/images/home/banner/bg_banner_right.svg");
     background-repeat: no-repeat;
   }
   .Banner_Inner_Section3 {
@@ -241,7 +241,7 @@
   }
   
   .Banner_Section4 {
-    background: url("./bg_banner_right.svg");
+    background: url("../assests/images/home/banner/bg_banner_right.svg");
     background-repeat: no-repeat;
     border-radius: 471px;
     background: #c4c4c4;
@@ -292,7 +292,7 @@
   }
   
   .Banner_Inner_Section4 .Banner_img4 {
-    background: url("./bg_banner_right.svg");
+    background: url("../assests/images/home/banner/bg_banner_right.svg");
     border-radius: 471px;
     opacity: 0.1;
     background: #c4c4c4;
@@ -350,6 +350,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+    padding-right: 50px;
   }
   
   .coloumn_one ul li {
@@ -360,7 +361,7 @@
     font-weight: 400;
     line-height: 30px;
     list-style: none;
-    padding-left: 100px;
+    
     margin: 15px;
   }
   
