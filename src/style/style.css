@@ -59,7 +59,7 @@
   
   .Banner_Section {
     padding: 60px 0px;
-    background: url("../assests/images/home/banner/banner.svg");
+    background: url("../assests/images/home/banner/bg_banner.svg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -174,7 +174,7 @@
   }
   
   .Banner_Section3 {
-    background: url("../assests/images/home/banner/bg_banner_right.svg");
+    background: url("../assests/images/home/elipse.png");
     background-repeat: no-repeat;
   }
   .Banner_Inner_Section3 {
@@ -244,9 +244,9 @@
     background: url("../assests/images/home/banner/bg_banner_right.svg");
     background-repeat: no-repeat;
     border-radius: 471px;
-    background: #c4c4c4;
-    background-position: right;
-  }
+  }  
+
+  
   .Banner_Inner_Section4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -294,7 +294,6 @@
   .Banner_Inner_Section4 .Banner_img4 {
     background: url("../assests/images/home/banner/bg_banner_right.svg");
     border-radius: 471px;
-    opacity: 0.1;
     background: #c4c4c4;
   }
   .Banner_Inner_Section4 .Banner_img4 img {
@@ -435,4 +434,22 @@
     size: 5px;
   }
   
-  
+  .global_title {
+    color: #1E1E1E;
+font-family: Rubik;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.8px;
+  }
+
+  .global_title span {
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+  }
