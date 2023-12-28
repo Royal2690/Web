@@ -1,7 +1,7 @@
 import React from 'react'
-import './feature/style.css'
-import HeroSection from './feature/heroSection'
+import './style.css'
 import OurServices from './feature/ourServices'
+import HeroSection from './feature/herosection'
 const HomePage = () => {
     return (
         <>

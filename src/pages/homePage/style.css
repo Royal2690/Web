@@ -1,0 +1,22 @@
+
+.ourServices{
+padding: 100px 0px;
+
+}
+
+.card_grid {
+margin: 30px 60px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 20px;
+}
+
+.service_card {
+position:relative;
+width: 100%;
+height: 350px;
+}
+
+.service_card img {
+height: 100%;
+} 
