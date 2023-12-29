@@ -8,8 +8,10 @@ const OurServices = () => {
                 <div className="service_card">
                     <img src={Card} width='100%' alt="" />
                     <div className="over_lay">
-                        <h2>AC DUCT</h2>
+                        <div className="content">
+                        <h2>Duct Cleaning</h2>
                         <button>Book Now</button>
+                        </div>
                     </div>
                 </div>
             </div>
