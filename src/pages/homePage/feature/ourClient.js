@@ -1,5 +1,5 @@
 import React from 'react'
-import clientimg from '../../../assests/images/home/review_img.png'
+import Clientcard from '../../../global/components/client_card'
 const OurClient = () => {
     return (
         <div className='page_width our_client'>
@@ -8,23 +8,13 @@ const OurClient = () => {
                 <p>We make sure that your safety is never compromised. This is why we hire all the staff under the roof of Home Comfort, just for your satisfaction. Our goal is to become the largest and most famous online home services platform and provide our customers with the best of services and experience.</p>
             </div>
             <div className="client_card_grid">
-                <div className="client_card">
-                    <div className="upper_content">
-                        <div className="img">
-                            <img src={clientimg} alt="" />
-                        </div>
-                        <div className="img_content">
-                            <h2>Alena Herwitz</h2>
-                            <div className="rating">
-                                <small>3 Months ago</small>
-                                <div className="star"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="lower_content">
-                        <p>We make sure that your safety is never compromised. This is why we hire all the staff under the roof of Home Comfort, just for your satisfaction.</p>
-                    </div>
-                </div>
+                <Clientcard />
+                <Clientcard />
+                <Clientcard />
+                <Clientcard />
+                <Clientcard />
+                <Clientcard />
+
             </div>
         </div>
     )
