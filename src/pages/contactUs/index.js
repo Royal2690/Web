@@ -1,11 +1,11 @@
 import React from 'react'
 
 const ContactUS = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <div>
+            <ContactUS />
+        </div>
+    )
 }
 
 export default ContactUS

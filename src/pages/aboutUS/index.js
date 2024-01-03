@@ -1,11 +1,11 @@
 import React from 'react'
 
 const AboutUS = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <div>
+            <AboutUS />
+        </div>
+    )
 }
 
 export default AboutUS
