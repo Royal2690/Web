@@ -1,11 +1,15 @@
 import React from 'react'
-
 const Banner = () => {
     return (
         <div>
-            <h2>Contact Us</h2>
+            <div className='contact_us page_width'>
+                <div className='global_title'>
+                    Contact <span> US </span>
+                </div>
+            </div>
         </div>
     )
+
 }
 
 export default Banner
