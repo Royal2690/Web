@@ -1,7 +1,7 @@
 import React from 'react'
 import banner from '../../../assests/images/home/banner/banner.svg'
 import who from '../../../assests/images/home/who_img.jpg'
-import any from '../../../assests/images/home/who_img.jpg'
+import any from '../../../assests/images/home/company.svg'
 const HeroSection = () => {
     return (
         <>

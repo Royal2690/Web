@@ -85,10 +85,12 @@ display: none;
 display: block;
 }
 
-.our_client {
+
+.our_client  {
     padding: 50px 0px;
 
 }
+
 
 .our_client .header_content{
     text-align: center;
@@ -96,7 +98,6 @@ display: block;
 
 .our_client .header_content .our_title {
     color: #1E1E1E;
-text-align: center;
 font-family: Rubik;
 font-size: 60px;
 font-style: normal;
@@ -107,12 +108,6 @@ letter-spacing: -1.8px;
 
 .our_client .header_content .our_title span {
     color: #058B8C;
-    font-family: Rubik;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -1.8px;
 }
 
 .our_client .header_content p {
@@ -122,12 +117,17 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; 
+max-width: 1250px;
+padding-left: 80px;
+align-items: center;
 }
 
 .client_card_grid {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 gap: 30px;
+max-width: 1250px;
+padding-left: 80px;
 }
 
 .client_card_grid .client_card {
