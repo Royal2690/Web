@@ -23,7 +23,7 @@ const Footer = () => {
                 </div><div class="coloumn_two">
                     <ul>
                         <li>
-                            Facebook
+                            <a href='https://www.facebook.com/' rel='noreferrer' target="_blank">Facebook</a>
                         </li>
                         <li>
                             Twitter
